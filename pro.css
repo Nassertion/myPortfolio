@@ -1,0 +1,192 @@
+body{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main {
+    background-image: url();
+    margin: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: px black solid;
+    box-shadow: 50px 50px 1000px 20px black;    
+
+    
+}
+.main.night{
+    background-color: black;
+    color: aliceblue;
+    
+}
+.bar.night{
+    background-color: black;
+    color: aliceblue;
+}
+.main section{
+    margin-bottom: 0px;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px rgb(255, 115, 0) solid;
+}
+
+
+
+.list li{
+    margin-left: 5px;
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: black;
+  
+}
+.list li:hover{
+    padding: 10px 20px ;
+    background-color: rgb(255, 140, 0);
+}
+label{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    right:400px;
+    top: 120px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+label::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    left: 1px;
+    top: 1px;
+    cursor: pointer;
+    background-color: black;
+    transition: 1s;
+    
+    border: 2px black solid;
+    border-radius: 50%;
+}
+label.active::before{
+    background-color: aliceblue;
+    left: 24px;
+}
+label.night::before{
+    background-color: black;
+    color: aliceblue;
+}
+
+.main2{
+    background-color: rgb(255, 115, 0);
+}
+header img , .logo{
+    border-radius: 100px;
+    height: min-content;
+    width: 60px;
+}
+.logo{
+    height:60px;
+}
+
+img.mine{
+    float: right;
+
+    margin-top: -467px;
+    margin-right: 0px;
+    margin-left: -0px;
+    width: 500px;
+    height: 467px;
+}
+img.mine2{
+    float: right;
+    margin-top: -518px;
+    margin-right: 0.5px;
+    margin-left: -0px;
+    width: 500px;
+    height: 518px;
+}
+section img{
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+section img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+.sec{   
+    margin-top: 150px;
+    margin-right: 0px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.sec h1{
+    font-size: 45px;
+
+}
+.sec h3{
+    font-size: 25px;
+
+}
+
+.foot{
+    text-align: center;
+    background-color: #35424a;
+    
+}
+
+.par{
+    font-style: italic;
+    font-size: 25px;
+}
+/* about me */
+.sec2{   
+    margin-top: 150px;
+    margin-right: 600px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.sec .par{
+    margin-top: 20px;
+}
+.par a{
+    text-decoration: none;
+    color:  rgb(255, 100, 0);
+}
+/* service */
+.sec3{
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.sec3 h1{
+    font-size: 40px;
+    margin-left: 45px;
+}
+.list2 li{
+    margin: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+/* contact */
+.imgs{
+    margin: 50px;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-bottom:120px ;
+}
+.imgs img{
+
+    border-radius: 100px;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}
+.imgs :hover{
+    opacity: 0.8;
+}
