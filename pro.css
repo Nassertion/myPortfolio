@@ -5,23 +5,17 @@ body{
 }
 
 .main {
-    background-image: url();
     margin: 100px;
     margin-right: 200px;
     margin-left: 200px;
     border: px black solid;
-    box-shadow: 50px 50px 1000px 20px black;    
+    box-shadow: 30px 30px 60px 10px black;    
+}
 
-    
-}
 .main.night{
-    background-color: black;
+    background-color: rgb(44, 44, 44);
     color: aliceblue;
     
-}
-.bar.night{
-    background-color: black;
-    color: aliceblue;
 }
 .main section{
     margin-bottom: 0px;
@@ -33,26 +27,23 @@ header{
     justify-content: space-between;
     border-bottom: 3px rgb(255, 115, 0) solid;
 }
-
-
-
 .list li{
     margin-left: 5px;
     list-style: none;
     padding: 10px 20px;
     border-radius: 10px;
     display: inline-block;
-    color: black;
-  
+    color: rgb(0, 0, 0);
 }
+
 .list li:hover{
     padding: 10px 20px ;
     background-color: rgb(255, 140, 0);
 }
 label{
     position: absolute;
-    width: 40px;
-    height: 20px;
+    width: 45px;
+    height: 24px;
     right:400px;
     top: 120px;
     border: 2px black solid;
@@ -61,13 +52,13 @@ label{
 label::before{
     position: absolute;
     content: "";
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;;
     left: 1px;
-    top: 1px;
+    top:1px;
     cursor: pointer;
     background-color: black;
-    transition: 1s;
+    transition: 0.5s;
     
     border: 2px black solid;
     border-radius: 50%;
